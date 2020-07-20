@@ -1,4 +1,18 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+@import url('https://fonts.googleapis.com/css?family=Muli:400,700');
 body{
     background-image: url(./assets/background.PNG);
+    font-family: 'Muli';
+    /* background:#e8e8e8; */
+
+}
+.dividerLong{
+    width:100px;
+    height:auto;
+    display:inline-block;
+}
+.dividerShort{
+    width:70px;
+    height:auto;
+    display:inline-block;
 }
