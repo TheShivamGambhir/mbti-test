@@ -1,0 +1,19 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "shivam",
+      "code": "abcd"
+    },
+    {
+      "name": "Shivam Gambhir",
+      "code": "Iron Man",
+      "id": "_J7gZ1V"
+    },
+    {
+      "name": "Rahul",
+      "code": "Hulk",
+      "id": "mTfxDHt"
+    }
+  ]
+}

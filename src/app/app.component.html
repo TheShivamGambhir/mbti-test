@@ -7,6 +7,7 @@
 <h1>Please enter your details.</h1>
 
   <form [formGroup]="rForm" (ngSubmit)="addPost(rForm.value)">
+    
     <div class="form-container">
       <div class="row columns">
         <br><br>
@@ -15,10 +16,10 @@
         </label>
         <div class="alert" *ngIf="!rForm.controls['name'].valid && rForm.controls['name'].touched">Please enter a valid Name</div>
         <div class="dividerLong"></div>
-        <label>Password
-          <textarea  formControlName="description"></textarea>
+        <label>favSuperHero
+          <textarea  formControlName="favSuperHero"></textarea>
         </label>
-        <div class="alert" *ngIf="!rForm.controls['description'].valid && rForm.controls['description'].touched">Password must be atleast 5 characters long.</div>
+        <div class="alert" *ngIf="!rForm.controls['favSuperHero'].valid && rForm.controls['favSuperHero'].touched">favSuperHero must be atleast 4 characters long.</div>
         <h1></h1>
         <div class="dividerShort"></div>
 
